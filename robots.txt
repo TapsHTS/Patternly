@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tapshts.github.io/Patternly/sitemap.xml
