@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="grid" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <rect width="60" height="60" fill="none" stroke="#2b2d30" stroke-width="1"/>
+    </pattern>
+    <pattern id="dots" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="15" cy="15" r="2" fill="#1b1c1f"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0e0f11"/>
+  <rect width="1200" height="630" fill="url(#grid)" opacity="0.4"/>
+
+  <!-- Decorative pattern shapes top-right -->
+  <g opacity="0.18" transform="translate(700, 60)">
+    <!-- Hexagon -->
+    <polygon points="100,20 160,55 160,125 100,160 40,125 40,55" fill="none" stroke="#ff4d00" stroke-width="2"/>
+    <!-- Star -->
+    <polygon points="280,80 293,120 335,120 302,145 314,185 280,160 246,185 258,145 225,120 267,120" fill="none" stroke="#ff7040" stroke-width="2"/>
+    <!-- Circle -->
+    <circle cx="80" cy="240" r="50" fill="none" stroke="#ff4d00" stroke-width="2"/>
+    <!-- Triangle -->
+    <polygon points="230,200 290,300 170,300" fill="none" stroke="#ff7040" stroke-width="2"/>
+    <!-- Rect rounded -->
+    <rect x="320" y="210" width="90" height="90" rx="12" fill="none" stroke="#ff4d00" stroke-width="2"/>
+    <!-- Diamond -->
+    <polygon points="120,340 170,390 120,440 70,390" fill="none" stroke="#ff7040" stroke-width="2"/>
+    <!-- Cross -->
+    <path d="M260,340 h30 v-30 h30 v30 h30 v30 h-30 v30 h-30 v-30 h-30z" fill="none" stroke="#ff4d00" stroke-width="2"/>
+  </g>
+
+  <!-- Decorative repeating pattern bottom-left -->
+  <g opacity="0.1" transform="translate(-20, 340)">
+    <circle cx="40" cy="40" r="18" fill="#ff4d00"/>
+    <circle cx="100" cy="40" r="18" fill="#ff4d00"/>
+    <circle cx="160" cy="40" r="18" fill="#ff4d00"/>
+    <circle cx="70" cy="85" r="18" fill="#ff7040"/>
+    <circle cx="130" cy="85" r="18" fill="#ff7040"/>
+    <circle cx="40" cy="130" r="18" fill="#ff4d00"/>
+    <circle cx="100" cy="130" r="18" fill="#ff4d00"/>
+    <circle cx="160" cy="130" r="18" fill="#ff4d00"/>
+  </g>
+
+  <!-- Main logo text -->
+  <text x="600" y="270" font-family="'Arial Black', 'Arial', sans-serif" font-size="100" font-weight="900" fill="#ff4d00" text-anchor="middle" letter-spacing="-4">PATTERN</text>
+  <text x="600" y="270" font-family="'Arial Black', 'Arial', sans-serif" font-size="100" font-weight="900" fill="#d4d6da" text-anchor="middle" letter-spacing="-4" opacity="0.35">
+    <tspan dx="555">LY</tspan>
+  </text>
+
+  <!-- Tagline -->
+  <text x="600" y="340" font-family="'Courier New', monospace" font-size="22" fill="#5f6166" text-anchor="middle" letter-spacing="2">CRÉATEUR DE MOTIFS EN LIGNE — GRATUIT</text>
+
+  <!-- Pill badges -->
+  <!-- Badge 1 -->
+  <rect x="280" y="390" width="160" height="36" rx="18" fill="#1f0900" stroke="#ff4d00" stroke-width="1"/>
+  <text x="360" y="414" font-family="'Courier New', monospace" font-size="13" fill="#ff4d00" text-anchor="middle">20 Formes</text>
+
+  <!-- Badge 2 -->
+  <rect x="460" y="390" width="180" height="36" rx="18" fill="#1f0900" stroke="#ff4d00" stroke-width="1"/>
+  <text x="550" y="414" font-family="'Courier New', monospace" font-size="13" fill="#ff4d00" text-anchor="middle">8 Modes Répétition</text>
+
+  <!-- Badge 3 -->
+  <rect x="660" y="390" width="180" height="36" rx="18" fill="#1f0900" stroke="#ff4d00" stroke-width="1"/>
+  <text x="750" y="414" font-family="'Courier New', monospace" font-size="13" fill="#ff4d00" text-anchor="middle">Export PNG/JPEG/WebP</text>
+
+  <!-- URL -->
+  <text x="600" y="570" font-family="'Courier New', monospace" font-size="16" fill="#5f6166" text-anchor="middle" letter-spacing="1">tapshts.github.io/Patternly</text>
+
+  <!-- Accent line -->
+  <rect x="480" y="295" width="240" height="2" fill="#ff4d00" opacity="0.6"/>
+</svg>

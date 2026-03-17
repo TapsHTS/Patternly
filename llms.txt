@@ -1,0 +1,38 @@
+# Patternly
+
+> Patternly est un éditeur de motifs de répétition gratuit, entièrement dans le navigateur, sans installation. Idéal pour créer des patrons d'impression, des textures, des arrière-plans et des motifs vectoriels exportables.
+
+## Description
+
+Patternly est un outil de création de motifs en ligne développé par TapsHTS. Il permet de composer des patterns complexes à partir de formes vectorielles, d'appliquer des modes de répétition variés, puis d'exporter le résultat en haute résolution (PNG, JPEG, WebP).
+
+L'application fonctionne entièrement dans le navigateur (HTML5 + Fabric.js) — aucune installation, aucun compte requis.
+
+## Fonctionnalités principales
+
+- **20 types de formes** : rectangles, cercles, ellipses, triangles, étoiles (4/5/6 branches), hexagone, pentagone, octogone, losange, cœur, flèche, croix, ligne, texte, lune, vague, zigzag
+- **Édition complète** : déplacer, redimensionner, pivoter, retourner (H/V), couleur, contour, opacité, épaisseur de trait, dégradés, ombres portées, styles de trait, arrondi des coins, propriétés texte
+- **Outils avancés** : alignement, distribution régulière H/V, ordre des calques, grouper/dégrouper, magnétisme sur grille, grille visuelle
+- **8 modes de répétition** : simple, brique H/V, demi-chute, miroir H/V/H+V, rotation 90°/180°
+- **Workflow** : annuler/rétablir illimité, copier/coller, calques avec visibilité et verrouillage, sauvegarde JSON, export PNG/JPEG/WebP en 1×/2×/4× ou résolution personnalisée
+- **Raccourcis clavier** : R (rect), C (cercle), T (texte), V (sélection), H (pan), G (grille), S (magnétisme), P (aperçu), Ctrl+Z/Y
+
+## Cas d'usage
+
+- Créer des tissus, papiers peints, emballages avec des motifs répétés
+- Générer des textures pour le game design, l'illustration ou le web design
+- Prototyper rapidement des patterns pour la mode, la décoration intérieure
+- Exporter des assets vectoriels en haute résolution pour l'impression
+
+## Informations techniques
+
+- **URL** : https://tapshts.github.io/Patternly/
+- **Technologie** : HTML5, CSS3, JavaScript, Fabric.js 5.3
+- **Licence** : Gratuit, open source
+- **Langue** : Français
+- **Auteur** : TapsHTS
+
+## Liens
+
+- [Application](https://tapshts.github.io/Patternly/)
+- [Code source (GitHub)](https://github.com/TapsHTS/Patternly)
